@@ -1,0 +1,39 @@
+# Ignore file settings
+*.Rproj
+*.Rproj.user/
+.Rhistory
+.RData
+.DS_store
+.DS_Store?
+
+# Pythhon
+__pycache__
+.ipynb_checkpoints
+
+# asdf
+*.tool-versions
+
+# Course sources
+lecture_1_source
+lecture_2_source
+
+# Ignore these files
+*.swp
+*.log
+*.aux
+*.out
+
+# Open cached files
+*.m~
+*.*swp
+*.*swo
+*.~
+
+# Compiled sources
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+.Rproj.user
