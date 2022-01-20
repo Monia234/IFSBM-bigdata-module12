@@ -69,16 +69,18 @@ lower level back-ends for the math and calculation. Keras and Tensorflow have be
 and are open source.
 
 In order to install Keras using the R package, you will need Anaconda and a Python environment with tensorflow 2
-installed. If `Anaconda` (or Miniconda) is not installed on your computer, download and install it. Then, run the
-following chunk that will create a conda environment named `r_tensorflow` with the libraries required to run Keras.
+installed. If `Anaconda` (or Miniconda) is not installed on your computer, download and install it. Then execute in the
+terminal the command `conda env create -f keras.yaml` which will create a python 3.7 environment with tensorflow.
+
+
+Then, run the following chunk that will load keras and the conda environment `keras` with the libraries required to run
+Keras that you have installed above. You can check with the command `conda info --envs` run from a command line
+interface that an environment named `keras` is indeed available on your computer. 
 
 ```{r}
 library(keras)
-# keras::install_keras(method="conda", envname="r_tensorflow")
-use_condaenv(condaenv="r_tensorflow")
+use_condaenv(condaenv="keras")
 ```
-
-You can check with the command `conda info --envs` run from a command line interface that an environment named `r_tensorflow` has been created. After running this cell, restart your R studio. In your new session, comment the line `keras::install_keras` and uncomment the line `use_condaenv`. 
 
 For the next steps we will be using some `R` libraries. Load them with the following
 

@@ -11,4 +11,4 @@ dependencies:
   - requests
   - h5py
   - pip:
-    - tensorflow=2.7.*
+    - tensorflow==2.7
