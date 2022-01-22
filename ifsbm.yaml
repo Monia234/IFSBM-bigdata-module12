@@ -1,0 +1,14 @@
+name: ifsbm
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  - r
+dependencies:
+  - r-base=4.0.0
+  - r-cgdsr
+  - r-rcolorbrewer
+  - r-glmnet
+  - r-maditr
+  - r-rmarkdown
+  - r-keras

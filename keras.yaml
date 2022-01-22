@@ -10,5 +10,3 @@ dependencies:
   - scipy
   - requests
   - h5py
-  - pip:
-    - tensorflow==2.7

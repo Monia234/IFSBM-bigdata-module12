@@ -20,13 +20,13 @@ Ouvrez un terminal et vérifier que la commande `conda` est bien disponible en f
 Vous devriez déjà avoir cloné ce repo github, si ce n'est pas le cas faites
 
 ```
-git clone https://github.com/gustaveroussy/IFSBM-bigdata
+git clone https://github.com/gustaveroussy/IFSBM-bigdata-module12
 ```
 
 Placez-vous ensuite dans le répertoire `TP_IFSBM_module12` puis exécutez la commande 
 
 ```
-conda env create -f env.yaml
+conda env create -f ifsbm.yaml
 ```
 
 Cette commande va créer un environnement intitulé `ifsbm` que l'on va ensuite charger via la commande
